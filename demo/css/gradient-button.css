@@ -1,0 +1,53 @@
+/*
+
+
+GRADIENT BUTTON BY NICHOLAS IMPIERI AKA ANONIK
+
+CSS MADE BY NICHOLAS IMPIERI AKA ANONIK
+
+HTML MADE BY NICHOLAS IMPIERI AKA ANONIK
+
+
+LICENSE: MIT LICENSE
+
+
+*/
+
+.gradient-button{
+  border: solid 6px;
+  border-image: linear-gradient(to right, red 0%, blue 100%);
+  border-image-slice: 1;
+  background-color: white;
+  font-family: arial;
+  color: black;
+  font-size: 40px;
+  text-decoration: none;
+  padding: 10px 25px 10px 25px;
+  font-weight: bold;
+}
+
+.gradient-button:hover{
+  background: linear-gradient(to right, red 0%, blue 100%);
+  color: white;
+}
+
+
+
+/* EXAMPLE CUSTOM GRADIENT BUTTON WITH DIFFERENT COLOR */
+.gradient-button-edited{
+  border: solid 6px;
+  border-image: linear-gradient(to right, blue 0%, violet 100%);
+  border-image-slice: 1;
+  background-color: white;
+  font-family: arial;
+  color: black;
+  font-size: 40px;
+  text-decoration: none;
+  padding: 10px 25px 10px 25px;
+  font-weight: bold;
+}
+
+.gradient-button-edited:hover{
+  background: linear-gradient(to right, blue 0%, violet 100%);
+  color: white;
+}

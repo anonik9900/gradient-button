@@ -1,0 +1,57 @@
+/*
+
+*********DENO PAGE CSS ***********
+
+*/
+
+html,body{
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+#main{
+  width: 100%;
+  height: 100%;
+}
+
+#main-example{
+  height: 100vh;
+  display:flex;
+  flex-direction: column;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+}
+
+h1.title{
+  color: black;
+  font-family: arial;
+  font-size: 40px;
+  font-style: bold;
+  opacity: 0.8;
+}
+
+.gradient-button-edited{
+  border: solid 6px;
+  border-image: linear-gradient(to right, blue 0%, violet 100%);
+  border-image-slice: 1;
+  background-color: white;
+  font-family: arial;
+  color: black;
+  font-size: 40px;
+  text-decoration: none;
+  padding: 10px 25px 10px 25px;
+  font-weight: bold;
+}
+
+.gradient-button-edited:hover{
+  background: linear-gradient(to right, blue 0%, violet 100%);
+  color: white;
+}
+
+/*
+
+*********END DEMO PAGE CSS *************
+
+*/
