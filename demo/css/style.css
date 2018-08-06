@@ -50,6 +50,12 @@ h1.title{
   color: white;
 }
 
+::selection   {
+background: yellow;
+color: black;
+}
+
+
 /*
 
 *********END DEMO PAGE CSS *************
